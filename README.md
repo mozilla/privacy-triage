@@ -34,3 +34,7 @@ Run `npm run help` for the full list of commands.
 ## Based on
 
 This tool is based on [Necko Triage List](https://github.com/mozilla-necko/triage-list).
+
+## Triage rotation in bugzilla
+
+The triage owner is set up with the google doc mentioned in [firefox-source-docs](https://firefox-source-docs.mozilla.org/bug-mgmt/policies/triage-bugzilla.html).
