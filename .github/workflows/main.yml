@@ -24,8 +24,8 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "Necko calendar bot"
-          git config user.email "neckobot@mozilla.test"
+          git config user.name "Privacy-Team calender bot"
+          git config user.email "privacyteambot@mozilla.test"
 
       - name: Commit changes
         run: npm run push

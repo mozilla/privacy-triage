@@ -9,7 +9,7 @@ commands
   * push: pushes the changes to the repo and makes them public, refreshes the ics file as well`;
 
 const TRIAGE_JSON_FILE = "triage.json";
-const TRIAGE_ICAL_FILE = "necko-triage.ics";
+const TRIAGE_ICAL_FILE = "privacy-triage.ics";
 const CYCLE_LENGTH_DAYS = 7;
 const DAY_TO_MS = 24 * 60 * 60 * 1000;
 const CYCLE_LENGTH_MS = CYCLE_LENGTH_DAYS * DAY_TO_MS;
