@@ -5,12 +5,12 @@
 - `"triagers"` root object node holds a map of `"Full Name" -> { data }`.  Right now the `data` object keeps only the bugzilla email in `bzmail` field.
 - `"duty-end-dates"` root holds a map of `date -> "Full Name"`, where the `date` is the last day the triager is on duty, inclusive.  The last date is `2035-01-01` pointing at the `Fallback` triager.  Getting there means the list has to be manually updated and re-published.
 
-## To add Necko triagers in to your google calendar
-Just use [this link to add it to gcal](https://calendar.google.com/calendar/r?cid=http://mozilla-necko.github.io/triage-list/necko-triage.ics) and follow instructions.  The direct link to the ICS file is [here](https://mozilla-necko.github.io/triage-list/necko-triage.ics).
+## To add Privacy triagers in to your google calendar
+Just use [this link to add it to gcal](https://calendar.google.com/calendar/r?cid=https://mozilla.github.io/privacy-triage/privacy-triage.ics) and follow instructions.  The direct link to the ICS file is [here](https://mozilla.github.io/privacy-triage/privacy-triage.ics).
 
 ## To update the triage list
 ```
-git clone https://github.com/mozilla-necko/triage-list.git
+git clone https://github.com/mozilla/privacy-triage.git
 cd triage-list
 npm install
 npm run update
