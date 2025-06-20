@@ -76,12 +76,12 @@ function commandPrepush() {
   const ical = require('ical-toolkit');
   let builder = ical.createIcsFileBuilder();
 
-  builder.calname = "Necko Triage";
+  builder.calname = "Privacy Triage";
   builder.timezone = "Europe/Dublin";
   builder.tzid = "Europe/Dublin";
   builder.additionalTags = {
     'REFRESH-INTERVAL': 'VALUE=DURATION:P1H',
-    'X-WR-CALDESC': 'Necko Triage'
+    'X-WR-CALDESC': 'Privacy Triage'
   };
 
   for (let duty_date in duties) {
@@ -90,7 +90,7 @@ function commandPrepush() {
     builder.events.push({
       start: new Date(duty_date_ms),
       end: new Date(duty_date_ms + CYCLE_LENGTH_MS),
-      summary: `Necko triager: ${duty_triager}`,
+      summary: `Privacy triager: ${duty_triager}`,
       allDay: true,
     });
   }
