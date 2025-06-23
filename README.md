@@ -1,4 +1,4 @@
-# This is the human/machine readable list of Mozilla Privcy team triagers and dates each one is on duty
+# This is the human/machine readable list of Mozilla Privacy team triagers and dates each one is on duty
 
 ## To read the triage list and calendar
  Refer to regularly updated JSON file [triage.json](https://mozilla.github.io/privacy-triage/triage.json) with list of names and bugzilla emails, and a calendar with duty end-dates.
